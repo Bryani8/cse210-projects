@@ -33,7 +33,7 @@ public class Product
         return _quantity;
     }
 
-    public double totalCostProduct()
+    public double TotalCostProduct()
     {
        return _price * _quantity; 
     }

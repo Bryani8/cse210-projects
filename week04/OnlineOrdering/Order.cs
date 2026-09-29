@@ -16,7 +16,7 @@ public class Order
         double total = 0;
         foreach (Product item in _products)
         {
-            total += item.totalCostProduct();
+            total += item.TotalCostProduct();
         }
         return total;
     }
@@ -30,7 +30,7 @@ public class Order
         return 35;
     }
 
-    public double total()
+    public double Total()
     {
         Console.WriteLine($"SubTotal: {TotalProducts()}");
         Console.WriteLine($"Shipping Cost: {shippingCost()}");
