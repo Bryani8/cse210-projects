@@ -1,0 +1,2 @@
+100
+SimpleGoal:Read scripture today,Rea for at least one verse tonight.,100,True
